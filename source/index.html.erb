@@ -2,14 +2,55 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Welcome Home</h1>
+    <p>Book unique homes and experience a city like a local.</p>
+
+    <form class="form-inline">
+      <div class="form-group">
+        <input type="date" class="form-control" id="exampleInputName2" placeholder="When?">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Where?">
+      </div>
+      <!-- Large button group -->
+      <div class="btn-group">
+        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          1 guest<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li>1 guest</li>
+          <li>2 guests</li>
+          <li>3 guests</li>
+        </ul>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Search</button>
+    </form>
+
   </div>
 </div>
+
+
+<div class="container">
+  <h2>Recent flats</h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Le Wagon Shanghai</h2>
+          <p>Very cool city, the best</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

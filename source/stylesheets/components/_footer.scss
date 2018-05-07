@@ -1,0 +1,46 @@
+.fa.fa-heart {
+  color: $red;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  color: $lightgray;
+}
+
+.footer-copyright {
+  margin: 20px;
+  }
+
+.footer-links {
+  a {
+    color: $lightgray;
+  }
+
+  .fa.fa-instagram {
+    color: red;
+  }
+}
+
+  // .footer-links {
+  //   margin: 20px;
+  // }
+  // .fa.fa-github {
+  // color: $lightgray;
+  // }
+  // fa.fa-instagram {
+  //   color: $lightgray;
+  // }
+  // fa.fa-facebook {
+  //   color: $lightgray;
+  // }
+  // fa.fa-twitter {
+  //   color: $lightgray;
+  // }
+  // fa.fa-linkedin {
+  //   color: $lightgray;
+  // }
+
